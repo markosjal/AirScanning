@@ -1,4 +1,7 @@
 # AirScanning
+
+This is new and my first project on GitHub. Because I have had to sepatrate this from the scanning GUI for the same scanner, it is possible I am missing something. If you install this and can not get it to work please create a new issue. 
+
 AirScanning for Ion AirCopy, Halo Magic Scanner(+ ePost),  Mustek iScan Air(Orignal), iScan Fly. Century CPS-A4WF, Transcription Patri Kun A4 Wi-Fi Portable Scanner 転写パットリくん A4 Wi-Fiポータブルスキャナー, and possibly others. heretofore referred to as s400w based or s400w compatible. 
 
 These are great small portable, wireless, rechargable scanners that at one time were supported on Windows, Mac , iOS, and Android. In my opinion these scanners were at the forefront of a new wave of small wireless portable scanners. They are still available on eBay at a fraction of the cost of comparable scanners. These scanners are now somewhat orphaned as the manufacturers have not updated drivers making them incompatible with many newer operating systems. Airscanning will extend scanner functionality to your entire network without manufacturers drivers, by way of a Linux host.
