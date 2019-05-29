@@ -1,15 +1,15 @@
 # AirScanning
-AirScanning for Ion AirCopy, Halo Magic Scanner(+ ePost),  Mustek iScan Air(Orignal), iScan Fly. Century CPS-A4WF, Transcription Patri Kun A4 Wi-Fi Portable Scanner 転写パットリくん A4 Wi-Fiポータブルスキャナー, and possibly others. heretofore referred to as s400w based or s400w compatible.
+AirScanning for Ion AirCopy, Halo Magic Scanner(+ ePost),  Mustek iScan Air(Orignal), iScan Fly. Century CPS-A4WF, Transcription Patri Kun A4 Wi-Fi Portable Scanner 転写パットリくん A4 Wi-Fiポータブルスキャナー, and possibly others. heretofore referred to as s400w based or s400w compatible. 
 
-These scanners are now somewhat orphaned as the manufacturers have not updated drives making them incompatible with many newer operating systems. This will extend scanner functionality to your entire network without manufacturers drivers.
+These are great small portable, wireless, rechargable scanners that at one time were supported on Windows, Mac , iOS, and Android. In my opinion these scanners were at the forefront of a new wave of small wireless portable scanners. They are still available on eBay at a fraction of the cost of comparable scanners. These scanners are now somewhat orphaned as the manufacturers have not updated drivers making them incompatible with many newer operating systems. Airscanning will extend scanner functionality to your entire network without manufacturers drivers, by way of a Linux host.
 
-This allows the aforementioned s400w based scanners to connect to a host machine over a dedicated WiFi interface. The same host should have a wired ethernet inteface dedicated to the network with a FIXED IP (DHCP may cause issues once the WiFi Connects to the scanner) . The WiFi MUST use DHCP to connect to the scanner or scanning may fail. The host machine will then respond to Apple AirScan/eSCL scan requests and forward them on to the scanner, over the dedicated WiFi connection to the scanner. YOU DO NOT NEED SANE , this is NOT SANE compatible, other than if SANE ever produces an AppleAirScan/eSCL backend this scanner might then work with SANE using this code as a go-between, or bridge.
+This allows the aforementioned s400w based scanners to connect to a host machine over a dedicated WiFi interface. The same host should have a wired ethernet inteface dedicated to the network with a FIXED IP (DHCP may cause issues once the WiFi Connects to the scanner) . The WiFi MUST use DHCP to connect to the scanner or scanning may fail. The host machine will then respond to Apple AirScan/eSCL scan requests and forward them on to the scanner, over the dedicated WiFi connection to the scanner. YOU DO NOT NEED SANE , this is NOT SANE compatible, other than if SANE ever produces an AppleAirScan/eSCL backend (long overdue), this scanner might then work with SANE using this code as a go-between, or bridge.
 
 This code is tested only on Apache server and PHP 7 on x86_64 under Ubuntu 16.04. It will likely run on other web servers however some rewrite mods must be activated for it to work, and it is untested. Ultimately, it would be nice to work this into the CUPS web server if that is possible. It would save from running a second web server. 
 
 Currently the scanner will work fine with VueScan in eSCL mode (autodetected) with this software.  Tested with VueScan on Windows 7 and Ubuntu 16.04.
 
-There are currenly issues with Apple AirScan as well as Mopria on Android. I hope to have these resolved soon.
+There are currenly issues with Apple AirScan as well as Mopria on Android. I hope to have these resolved soon. For the time being it works very well with VueScan.
 
 <b>In addition to an Apache/PHP install, you will need:</b><br/>
 the binary file at http://bastel.duckdns.org/~public/s400w/ source and 32 bit binary for download there.<br/>
