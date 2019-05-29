@@ -17,7 +17,7 @@ Avahi-daemon<br/>
 Mod rewrite activated on Apache as well as some custom rules.<br/>
 
 <b>Notes for using with VueScan:</b><br/>
-VUESCAN IS HIGHLY RECOMMENDED FOR NOW. It is available for OSX, Linux and Windows.<br/>
+VUESCAN IS HIGHLY RECOMMENDED FOR NOW. It is available for OSX, Linux and Windows. You can often buy a VueScan License on eBay for $2 USD , and a single License as of this writing is for up to 4 devices.<br/>
 As this is a sheetfeed scanner there is no real "preview" It is recommended to set the "Scan from Preview" option on the scan Page.
 
 <b>Notes for Scanning in OSX Mojave:</b><br/>
