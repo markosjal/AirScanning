@@ -1,0 +1,13 @@
+<Directory /var/www/>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule (.*) $1.php [L]
+RewriteCond %{REQUEST_FILENAME}.xml -f
+RewriteRule (.*) $1.xml [L]
+</IfModule>
+
+    Options FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
