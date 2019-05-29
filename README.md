@@ -18,7 +18,7 @@ Mod rewrite activated on Apache as well as some custom rules.<br/>
 Imagemagick if you want Grayscale8, Binary, or PDF output. .<br/>
 
 <b>Notes for using with VueScan:</b><br/>
-VUESCAN IS HIGHLY RECOMMENDED FOR NOW. It is available for OSX, Linux and Windows. You can often buy a VueScan License on eBay for $2 USD , and a single License as of this writing is for up to 4 devices.<br/>
+VUESCAN IS HIGHLY RECOMMENDED FOR NOW. It is available for OSX, Linux and Windows. You can often buy a VueScan License on eBay for $3 USD , and a single License as of this writing is for up to 4 devices, whether Windows, Mac Linux, or any mix.<br/>
 As this is a sheetfeed scanner there is no real "preview" It is recommended to set the "Scan from Preview" option on the scan Page.
 
 <b>Notes for Scanning in OSX Mojave:</b><br/>
