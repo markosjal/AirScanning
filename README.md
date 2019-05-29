@@ -24,7 +24,8 @@ As this is a sheetfeed scanner there is no real "preview" It is recommended to s
 Imaging app seems to always want to make a preview. For now, please use the Preview app. (this version however still has issues with scanning from either of these.)
 
 <b>Additional notes:</b><br/>
-I use this mostly with a TP-Link TL-WN722N wireless USB adapter. This gives me faster connection, and better range than most internal wifi cards tested so far aside from one Intel integrated on an HP Laptop. 
+I use this mostly with a TP-Link TL-WN722N wireless USB adapter. This gives me faster connection, and better range than most internal wifi cards tested so far aside from one Intel integrated on an HP Laptop.<br/>
+It seems that using 2 wifi cards (one to network and one to scanner),  for some reson,causes a substantial performance hit regardless of the channels used.  I do not know if this is because of the scanner or something in my test configuations thus far. <br/>
 There is an untested possibility of using this scanner with a WiFi extender. This means that a WiFi extender , far from the host would connect to the scanner as a client, passing all data to/from scanner/host. Some (bridge) devices may even allow this to go from WiFi to Ethernet in much the same way allowing the DHCP to pass through the WiFi Device on to a separate network card on the host. In this later case this would be that the scanner is connected to an ethernet device on the host or the wifi device on the host meaning that if not in range of one device, it is available on the other. This may be beneficial in a large home or office. 
 
 <b>Web GUI:</b><br/>
