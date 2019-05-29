@@ -36,5 +36,46 @@ There is an untested possibility of using this scanner with a WiFi extender. Thi
 For scannining from a Web GUI, we also offer this bundled with a full web gui that allows scanning from eSCL clients as well as the web interface, as a commercial product.  The web interface has features like Crop, Autocrop, Grayscale, flip , mirror, etc. The upcoming version 10 release will have a web based GUI inage editor, and also offer compatibility with eSCL scanners as well, not just s400w based scanners. More information at http://airscan.teknogeekz.com . This new version 10 GUI version with Web interface will make scanning to these modern AirScan/eSCL scanners easy without the use of SANE, on any device from most any modern browser on your network, except Internet Explorer
 
 
+<b>INSTALLING:</b><br/>
+
+By default on Ubuntu, once Apache was installed I had /var/www/ as web root with a virtual hostname of /html/. These instructions worked on that config but may need tweaking on your system 
+
+Install the /etc/apache2/apache2.conf.add file. This is an adendum to your existing file at that location on your system. DO NOT DELETE, NOR OVERWRITE the original file, you add this to it.
+
+Install all files in webroot to your webroot, preserving filenames and fixing permissions appropriate to your system. On most debian systems the owner:group should be www-data:www-data
+
+if you have a 32 bit system you can download the bastel binary here http://bastel.duckdns.org/~public/s400w/release/ . This 32 bit binary will also work on 64 it systems if you install 32 bit support. Otherwise go back to the bastel site s400w page http://bastel.duckdns.org/~public/s400w/ for source to compile a 64 bit binary.
+
+Install the binary to your webroot for now. You can change this later by editing config.inc.php in the webroot.
+
+activate mod rewrite
+sudo a2enmod rewrite
+
+restart apache
+
+Test to see if you can load this URL changing the IP to host machines IP 
+
+http://IP/eSCL/ScannerStatus
+You should see an XML file or something is wrong. 
+
+connect the scanner ,  via wifi, load a page, cd to webroot and complete a test scan using the binary like this
+
+s400w 192.168.18.33 23 scan 300 XYZ.jpg
+
+this should write XYZ.jpg to webroot folder.
+
+
+install the avahi service file
+
+Restart avahi
+
+run avahi-browse -a -t 
+In the avahi browse result you should see the scanner advertisement as _uscan._tcp
+
+if all is successful you should be able to connect with VueScan and scan successfully
+
+
+
+
 
 
