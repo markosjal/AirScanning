@@ -1,8 +1,6 @@
 <?php
 // this config file is for both the web GUI and The AirScan/eSCL server interface to the scanner. Some items affect both such as $root, $defaultresolution, etc
 
-include_once 'lang.php';
-
 // some server options. These may depend on your server configuration
 //path from admin or default scans folder to webroot (full linux path from root)
 //you should now configuure the following in scans/index.php aund usertemplate/index.php BEFORE creating users
@@ -53,6 +51,7 @@ $s400w='/var/www/html/s400w';
 // this seems to be the optomal setting as seting much lower may seem to cause problems
 // may interact with other embedded settings. best not to change.
 $ping=4000; //miliseconds
+// may not apply leave as-is
 
 //this is the frequency that the scanner will be queried , once online to see if it has a page inserted "Page inserted, 
 // ready to scan", once the ping determines it it online. You need not wait for this update interval you can scan without 
@@ -60,7 +59,7 @@ $ping=4000; //miliseconds
 // this seems to be the optimal setting as seting much lower may seem to cause problems
 // may interact with other embedded settings. best not to change.
 $refresh =8000; //6000 miliseconds 6 seconds
-
+// may not apply leave as-is
 
 //when enabled shows scan command text results at scan time. with escl clients connecting to s400w, 
 //produces files of received exml in eSCL/Scans.
