@@ -14,13 +14,18 @@ Currently the scanner will work fine with VueScan in eSCL mode (autodetected) wi
 
 There are currenly issues with Apple AirScan as well as Mopria on Android. I hope to have these resolved soon.
 
-Notes for using with VueScan.
+<b>Notes for using with VueScan:</b>
 As this is a sheetfeed scanner there is no real "preview" It is recommended to set the "Scan from Preview" option on the scan Page.
 
-Notes for Scanning in OSX Mojave
+<b>Notes for Scanning in OSX Mojave:</b>
 Imaging app seems to always want to make a preview. For now, please use the Preview app. (this version however still has issues with scanning from either of these.)
 
+<b>Additional notes:</b>
+I use this mostly with a TP-Link TL-WN722N wireless USB adapter. This gives me faster connection, and better range than most internal wifi cards tested so far aside from one Intel integrated on an HP Laptop. 
+There is an untested possibility of using this scanner with a WiFi extender. This means that a WiFi extender , far from the host would connect to the scanner , passing all data to/from scanner/host.
 
+
+<b>Web GUI</b>
 For scannining from a Web GUI, we also offer this bundled with a full web gui that allows scanning from eSCL clients as well as the web interface.  The web interface has features like Crop, Autocrop, Grayscale, flip , mirror, etc. The upcoming version 10 release will have a web based GUI inage editor, and also offer compatibility with eSCL scanners as well, not just s400w based scanners. More information at http://airscan.teknogeekz.com . This new version 10 GUI version with Web interface will make scanning to these modern AirScan/eSCL scanners easy without the use of SANE, on any device from most any modern browser on your network, except Internet Explorer
 
 
