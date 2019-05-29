@@ -15,13 +15,14 @@ There are currenly issues with Apple AirScan as well as Mopria on Android. I hop
 the binary file at http://bastel.duckdns.org/~public/s400w/ source and 32 bit binary for download there.<br/>
 Avahi-daemon<br/>
 Mod rewrite activated on Apache as well as some custom rules.<br/>
+Imagemagick if you want Grayscale8, Binary, or PDF output. .<br/>
 
 <b>Notes for using with VueScan:</b><br/>
 VUESCAN IS HIGHLY RECOMMENDED FOR NOW. It is available for OSX, Linux and Windows. You can often buy a VueScan License on eBay for $2 USD , and a single License as of this writing is for up to 4 devices.<br/>
 As this is a sheetfeed scanner there is no real "preview" It is recommended to set the "Scan from Preview" option on the scan Page.
 
 <b>Notes for Scanning in OSX Mojave:</b><br/>
-Imaging app seems to always want to make a preview. For now, please use the Preview app. (this version however still has issues with scanning from either of these.)
+Imaging app seems to always want to make a preview. For now, please use the Preview app. (this version however still has issues with scanning from either of these.). Once Apple compatibility is fixed , Imagemagick will be required in order to offer PDF output.
 
 <b>Additional notes:</b><br/>
 I use this mostly with a TP-Link TL-WN722N wireless USB adapter. This gives me faster connection, and better range than most internal wifi cards tested so far aside from one Intel integrated on an HP Laptop.<br/>
