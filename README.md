@@ -25,8 +25,8 @@ I use this mostly with a TP-Link TL-WN722N wireless USB adapter. This gives me f
 There is an untested possibility of using this scanner with a WiFi extender. This means that a WiFi extender , far from the host would connect to the scanner , passing all data to/from scanner/host.
 
 
-<b>Web GUI</b>
-For scannining from a Web GUI, we also offer this bundled with a full web gui that allows scanning from eSCL clients as well as the web interface.  The web interface has features like Crop, Autocrop, Grayscale, flip , mirror, etc. The upcoming version 10 release will have a web based GUI inage editor, and also offer compatibility with eSCL scanners as well, not just s400w based scanners. More information at http://airscan.teknogeekz.com . This new version 10 GUI version with Web interface will make scanning to these modern AirScan/eSCL scanners easy without the use of SANE, on any device from most any modern browser on your network, except Internet Explorer
+<b>Web GUI</b><br/>
+For scannining from a Web GUI, we also offer this bundled with a full web gui that allows scanning from eSCL clients as well as the web interface, as a commercial product.  The web interface has features like Crop, Autocrop, Grayscale, flip , mirror, etc. The upcoming version 10 release will have a web based GUI inage editor, and also offer compatibility with eSCL scanners as well, not just s400w based scanners. More information at http://airscan.teknogeekz.com . This new version 10 GUI version with Web interface will make scanning to these modern AirScan/eSCL scanners easy without the use of SANE, on any device from most any modern browser on your network, except Internet Explorer
 
 
 
