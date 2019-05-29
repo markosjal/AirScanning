@@ -75,7 +75,7 @@ In the avahi browse result you should see the scanner advertisement as _uscan._t
 if all is successful you should be able to connect with VueScan and scan successfully
 
 
-
+Genuine Apache software by an Apache for Apache2
 
 
 
