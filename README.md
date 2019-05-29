@@ -3,16 +3,16 @@ AirScanning for Ion AirCopy, Halo Magic Scanner(+ ePost),  Mustek iScan Air(Orig
 
 This allows the aforementioned s400w based scanners to connect to a host machine over a dedicated WiFi interface. The same host should have a wired ethernet inteface dedicated to the network with a FIXED IP (DHCP may cause issues once the WiFi Connects to the scanner) . The WiFi MUST use DHCP to connect to the scanner or scanning may fail. The host machine will then respond to Apple AirScan/eSCL scan requests and forward them on to the scanner, over the dedicated WiFi connection to the scanner. YOU DO NOT NEED SANE , this is NOT SANE compatible, other than if SANE ever produces an AppleAirScan/eSCL backend this scanner might then work with SANE using this code as a go-between, or bridge.
 
-<b>In addition to an Apache/PHP install, you will need:</b><br/>
-the binary file at http://bastel.duckdns.org/~public/s400w/ source and 32 bit binary for download there.<br/>
-Avahi-daemon<br/>
-Mod rewrite activated on Apache as well as some custom rules.<br/>
-
 This code is tested only on Apache server and PHP 7 on x86_64 under Ubunti 16.04. It will likely run on other web servers however some rewrite mods must be activated for it to work, and it is untested. Ultimately, it would be nice to work this into the CUPS web server if that is possible. It would save from running a second web server. 
 
 Currently the scanner will work fine with VueScan in eSCL mode (autodetected) with this software.  Tested with VueScan on Windows 7 and Ubuntu 16.04.
 
 There are currenly issues with Apple AirScan as well as Mopria on Android. I hope to have these resolved soon.
+
+<b>In addition to an Apache/PHP install, you will need:</b><br/>
+the binary file at http://bastel.duckdns.org/~public/s400w/ source and 32 bit binary for download there.<br/>
+Avahi-daemon<br/>
+Mod rewrite activated on Apache as well as some custom rules.<br/>
 
 <b>Notes for using with VueScan:</b><br/>
 As this is a sheetfeed scanner there is no real "preview" It is recommended to set the "Scan from Preview" option on the scan Page.
