@@ -44,7 +44,7 @@ $scannercapabilities='<?xml version="1.0" encoding="UTF-8"?>
         <scan:Platen>
                 <scan:PlatenInputCaps>
                         <scan:MinWidth>300</scan:MinWidth>
-                        <scan:MaxWidth>2550</scan:MaxWidth>
+                        <scan:MaxWidth>2575</scan:MaxWidth>
                         <scan:MinHeight>300</scan:MinHeight>
                         <scan:MaxHeight>4784</scan:MaxHeight>
                         <scan:MaxScanRegions>1</scan:MaxScanRegions>
