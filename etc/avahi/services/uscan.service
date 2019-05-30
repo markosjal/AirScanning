@@ -9,9 +9,9 @@
 <txt-record>is=platen,adf</txt-record>
 <txt-record>cs=binary,grayscale,color</txt-record>
 <txt-record>rs=eSCL</txt-record>
-<txt-record>representation=http://HDTVStreamersIn.local./images/AirScanIcon2.png</txt-record>
+<txt-record>representation=http://HOSTNAME./images/AirScanIcon2.png</txt-record>
 <txt-record>vers=2.5</txt-record>
-<txt-record>adminurl=http://HDTVStreamersIn.local/airscan.php</txt-record>
+<txt-record>adminurl=http://HOSTNAME./airscan.php</txt-record>
 <txt-record>note=AirScanning</txt-record>
 <txt-record>pdl=application/octet-stream,image/jpeg,application/pdf</txt-record>
 <txt-record>ty=AirScanning</txt-record>
