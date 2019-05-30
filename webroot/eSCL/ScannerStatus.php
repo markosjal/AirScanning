@@ -46,7 +46,7 @@ $scannercapabilities='<?xml version="1.0" encoding="UTF-8"?>
                         <scan:MinWidth>300</scan:MinWidth>
                         <scan:MaxWidth>2575</scan:MaxWidth>
                         <scan:MinHeight>300</scan:MinHeight>
-                        <scan:MaxHeight>4784</scan:MaxHeight>
+                        <scan:MaxHeight>4783</scan:MaxHeight>
                         <scan:MaxScanRegions>1</scan:MaxScanRegions>
                         <scan:SettingProfiles>
                                 <scan:SettingProfile>
