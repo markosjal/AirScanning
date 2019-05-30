@@ -65,7 +65,8 @@ s400w 192.168.18.33 23 scan 300 XYZ.jpg
 this should write XYZ.jpg to webroot folder.
 
 
-install the avahi service file
+install the avahi service file. You will need to edit this file with the hostname of your system leaving the trailing "." in Pace of HOSTNAME yourhostname.lan or yourhostname.local
+
 
 Restart avahi
 
