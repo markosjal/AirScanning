@@ -78,7 +78,7 @@ if all is successful you should be able to connect with VueScan and scan success
 
 Genuine Apache software by an Apache for Apache2, 
 
-Suuprt our effort and support us for on-gong projects
+Support our effort for this and other on-gong projects
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DJAMBBLA84JA8)
 
