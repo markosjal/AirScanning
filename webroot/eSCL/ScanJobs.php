@@ -35,12 +35,13 @@ function uuid()
 $jobuuid = uuid();
 
 
-//$job= file_get_contents('php://input');
+$job= file_get_contents('php://input');
 //You can replace the above $job=... line with one of the variable strings below then use a web browser at 
 //http://ipaddress/eSCL/ScanJob to initiate a scan with one of the pre - defined profiles below.
 
-//Scan Job no resolution defined
 
+//Scan Job no resolution defined
+/*
 $job='<<?xml version="1.0" encoding="UTF-8"?>
 <scan:ScanSettings xmlns:pwg="http://www.pwg.org/schemas/2010/12/sm" xmlns:scan="http://schemas.hp.com/imaging/escl/2011/05/03">
   <pwg:Version>2.0</pwg:Version>
@@ -56,7 +57,7 @@ $job='<<?xml version="1.0" encoding="UTF-8"?>
   <pwg:InputSource>Platen</pwg:InputSource>
   <scan:ColorMode>RGB24</scan:ColorMode>
 </scan:ScanSettings>';
-/*
+
  typical scan job
 $job='<?xml version="1.0" encoding="UTF-8"?>
 <scan:ScanSettings xmlns:scan="http://schemas.hp.com/imaging/escl/2011/05/03" xmlns:pwg="http://www.pwg.org/schemas/2010/12/sm">
