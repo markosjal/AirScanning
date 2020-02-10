@@ -1,5 +1,10 @@
 # AirScanning
 
+
+THIS PROJECT IS NOW A PART OF https://github.com/markosjal/AirScan
+
+
+
 This is new and my first project on GitHub. Because I have had to sepatrate this from the scanning GUI for the same scanner, it is possible I am missing something. If you install this and can not get it to work please create a new issue. 
 
 It is worth noting that if you are looking for info on the eSCL or Apple AirScan protocol you may want to have a look at this gist, which it seems does not come up in Google nor can you find it easily from Github. The gist has information I have gleaned so far about the AirScan / eSCL protocol communication as well as some links tht may be useful.
